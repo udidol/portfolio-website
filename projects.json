@@ -1,0 +1,63 @@
+[
+	{
+		"title": "WhatsApp Button Plugin",
+		"stack": {
+			"backend": [ "PHP" ],
+			"frontend": [ "JavaScript (+ jQuery)", "HTML", "CSS" ]
+		},
+		"links": {
+			"github": "https://github.com/udidol/add-whatsapp-button",
+			"download": "https://wordpress.org/plugins/add-whatsapp-button/",
+			"demo": "https://www.babydoc.co.il/"
+		},
+		"description": "This full stack project is a WordPress Plugin, which was actually born out of a business necessity - my dad saw a whatsapp button on some website and wanted one for his own business' website. I just finished building his website, and was looking for a cool project to improve my coding skills, so this WordPress plugin was born! It now has 4,000+ active installations 🚀",
+		"img": "/images/whatsapp-button-thumb.png"
+	},
+	{
+		"title": "Coalition Game",
+		"stack": {
+			"frontend": [ "ReactJS", "HTML", "CSS" ]
+		},
+		"links": {
+			"github": "https://github.com/udidol/coalition-game",
+			"demo": "https://www.udidollberg.com/coalitiomat2020/"
+		},
+		"description": "This was my first React project, and it was inspired by the constant slew of elections Israel has been facing in the last 3 years. Now, looking at the code for this project, I would do many things more efficiently. But it's still pretty cool.",
+		"img": "/images/coalitiomat-thumb.png"
+	},
+	{
+		"title": "Display Specific Products for Elementor",
+		"stack": {
+			"backend": [ "PHP" ]
+		},
+		"links": {
+			"github": "https://github.com/udidol/display-specific-products-elementor"
+		},
+		"description": "This mini-project was how I learned to build Elementor extensions, before I worked at Elementor. It is a WordPress plugin - an Elementor Add-On. I looked for an extension that can do what this does, and couldn't find one. This extensions allows you to display a grid of specific products on your Elementor page.",
+		"img": "/images/dspe-thumb.png"
+	},
+	{
+		"title": "Super Mario Bros. Clone",
+		"stack": {
+			"frontend": [ "JavaScript" ]
+		},
+		"links": {
+			"github": "https://github.com/udidol/mario",
+			"demo": "https://www.udidollberg.com/mario/"
+		},
+		"description": "This project was a fun little attempt at 2D game-building. I built a clone of the classic Super Mario Bros. game, using the Phaser game-building framework.",
+		"img": "/images/mario-thumb.png"
+	},
+	{
+		"title": "Zugiot: Everything is Powers",
+		"stack": {
+			"frontend": [ "ReactJS" ]
+		},
+		"links": {
+			"github": "https://github.com/udidol/zugiot",
+			"demo": "https://www.udidollberg.com/zugiot/"
+		},
+		"description": "This project was born from long FIFA nights with friends. When wew were more than 4 players, we had to split into pairs, do rotation, change up the pairs. This app did it for us.",
+		"img": "/images/zugiot-thumb.png"
+	}
+]
