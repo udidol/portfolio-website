@@ -1,7 +1,9 @@
 {
-    "scripts": {
-        "dev": "next dev"
-    },
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
     "dependencies": {
         "next": "^12.2.1",
         "postcss-flexbugs-fixes": "^5.0.2",
