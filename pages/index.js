@@ -1,6 +1,5 @@
+import Head from 'next/head'
 import Script from 'next/script';
-
-import ThemeProvider from '../context/context';
 
 import Project from '../components/project';
 import projectsData from '../projects.json';
@@ -8,7 +7,11 @@ import Hero from '../components/Hero';
 
 export default function HomePage() {
     return (
-		<ThemeProvider>
+		<>
+			<Head>
+				<title>Udi Dollberg - Full Stack Developer</title>
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
 			<Script
 				src="./ext-scripts/particles.min.js"
 				onLoad={ () => {
@@ -26,6 +29,6 @@ export default function HomePage() {
 					}
 				</div>
 			</div>
-		</ThemeProvider>
+		</>
 	);
 }

@@ -13,7 +13,6 @@ const toggleParticleColors = ( darkMode ) => {
 }
 
 export default function ToggleSwitch() {
-	//const context = useContext(ThemeContext);
 	const [ darkMode, setDarkMode ] = useState( false );
 	const darkModeClass = 'dark';
 
