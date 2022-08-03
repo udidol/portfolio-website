@@ -4,7 +4,7 @@
 	  [
 		"postcss-preset-env",
 		{
-		  "autoprefixer": {},
+		  "autoprefixer": false,
 		  "stage": 3,
 		  "features": {
 			"custom-properties": false
