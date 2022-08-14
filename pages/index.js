@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script';
 
 import Project from '../components/project';
 import projectsData from '../projects.json';
@@ -12,15 +11,9 @@ export default function HomePage() {
 				<title>Udi Dollberg - Full Stack Developer</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
-			<Script
-				src="./ext-scripts/particles.min.js"
-				onLoad={ () => {
-					particlesJS.load( 'particles-js', './ext-scripts/particlesjs-config.json', function() {} );
-				} }
-			/>
 			<Hero/>
 			<div className="projects-section section">
-				<h2 className="section-title">Dev Projects</h2>
+				<h2 className="section-title">DEV PROJECTS</h2>
 				<div className="projects-container">
 					{
 					projectsData.map( ( project ) => {

@@ -1,7 +1,8 @@
 :root {
-	--primary: #092b6a;
-	--secondary: #60a9fc;
-	--background: #ebebeb;
+	--primary: #122c3d;
+	--secondary: #f66c0f;
+	--background: #efefef;
+	--sky: #60a9fc;
 	--text-color: #242424;
 	--secondary-background: #dadada;
 	--very-light-gray: #dfdfdf;
@@ -11,7 +12,8 @@
 .dark {
 	--primary: #ffffff;
 	--secondary: #ff9800;
-	--background: #092b6a;
+	--background: #122c3d;
+	--sky: var(--secondary);
 	--text-color: #f5f5f5;
 	--secondary-background: #151f28;
 }

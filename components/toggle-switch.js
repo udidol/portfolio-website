@@ -2,16 +2,6 @@ import ToggleSwitchCSS from '/css/toggle-switch.module.scss';
 
 import { useState } from 'react';
 
-const toggleParticleColors = ( darkMode ) => {
-	const color = darkMode ? '#dfdfdf' : '#092b6a';
-
-	pJSDom[0].pJS.particles.array.forEach( ( el, i ) => {
-		pJSDom[0].pJS.particles.array[ i ].color.value = color;
-		pJSDom[0].pJS.particles.array[ i ].color.rgb = hexToRgb( color );
-		pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb( color );
-	});
-}
-
 export default function ToggleSwitch() {
 	const [ darkMode, setDarkMode ] = useState( false );
 	const darkModeClass = 'dark';
@@ -20,8 +10,6 @@ export default function ToggleSwitch() {
 		setDarkMode( ! darkMode );
 
 		document.querySelector('body').classList.toggle( darkModeClass );
-
-		toggleParticleColors( ! darkMode );
 	};
 
 	return (
