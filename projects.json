@@ -54,8 +54,7 @@
 			"frontend": [ "ReactJS" ]
 		},
 		"links": {
-			"github": "https://github.com/udidol/zugiot",
-			"demo": "/projects/zugiot/index.html"
+			"github": "https://github.com/udidol/zugiot"
 		},
 		"description": "This project was born from long FIFA nights with friends. When wew were more than 4 players, we had to split into pairs, do rotation, change up the pairs. This app did it for us.",
 		"img": "/images/zugiot-thumb.png"

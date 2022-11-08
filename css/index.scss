@@ -79,6 +79,16 @@ body {
 		font-size: 1.5rem;
 		font-family: "Roboto Slab", serif;
 
+		a {
+			transition-duration: 0.3s;
+			will-change: font-size, font-weight;
+
+			&:hover {
+				font-size: 1.8rem;
+				font-weight: 700;
+			}
+		}
+
 		@media only screen and (max-width: 768px) {
 			justify-content: center;
 		}
